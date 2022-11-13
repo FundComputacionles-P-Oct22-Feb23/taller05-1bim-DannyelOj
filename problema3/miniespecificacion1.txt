@@ -1,0 +1,18 @@
+1.	Inicio
+2.	temperatura, d[0-n]
+3.	temperaturaConversion, d[0-n]
+4.	fahrenheit, d[0-n]
+5.	kelvin, d[0-n]
+6.	<<”Ingrese la temperatura actual en grados centígrados”
+7.	>>temperatura
+8.	Si temperatura < 0 entonces
+9.	     <<”La temperatura no es positiva
+10.	Sino
+11.	         Si temperatura <=100 entonces
+12.	            fahrenheit  (temperatura × 9/5) + 32 
+13.	            kelvin  temperatura+ 273.15
+16.		    <<”La temperatura es de: “ + fahrenheit + ” “ + “grados fahrenheit”
+17.	            <<”La temperatura es de: “ + kelvin + ” “ + “grados kelvin”
+14.	        Fin si
+15.	Fin si
+18.	Fin 

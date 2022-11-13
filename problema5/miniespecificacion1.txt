@@ -1,0 +1,64 @@
+
+MINIESOECIFICACIÓN
+
+1.	Inicio
+2.	edad, i[0-n]
+3.	litrosConsumidos, d[0-n]
+4.	costoLitro, d[0-n]
+5.	totalAgua, d[0-n]
+6.	minutosMes, i[0-n]
+7.	costoMinutos, d[0-n]
+8.	totalMinutos[0-n]
+9.	descuento1, d[0-n]
+10.	descuento2, d[0-n]
+11.	<<” Ingrese el numero de litros consumidos de agua en el mes”
+12.	>>litrosConsumidos
+13.	<<” Ingrese el costo del litro de agua”
+14.	>>costoLitro
+15.	<<Ingrese los minutos consumidos en el mes”
+16.	>>minutosMes
+17.	<<” Ingrese el costo de minuto”
+18.	>>costoMinuto
+19.	<<”Ingrese su edad”
+20.	>>edad
+21.	totalAgua  costoLitro * litrosConsumidos
+22.	totalMinutos  minutosMes * costoMes
+23.	Si edad < 20 entonces
+24.	     descuento1 = totalAgua * 0.20 
+25.	     descuento2 = totalMinutos * 0.20
+26.	FinSi
+27.	<<”El valor a cancelar del agua es: “  + descuento1
+28.	<<”El valor a cancelar de los minutos es: “ + descuento2
+29.	Fin 
+
+ALGORITMO
+
+1.	Inicio
+2.	Pedimos por teclado una edad
+3.	Pedimos por teclado los litros Consumidos
+4.	Pedimos por teclado el costo del litro de agua
+5.	Pedimos por teclado el total del agua
+6.	Pedimos por teclado los minutos consumidos al mes
+7.	Pedimos por teclado el costo de los minutos
+8.	Pedimos por teclado el total de minutos
+9.	Asignamos un valor para descuento1
+10.	Asignamos un valor para descuento2
+11.	Pedimos por teclado el número de litros consumidos de agua en el mes
+12.	Lo guardamos en la variable litrosConsumidos
+13.	Pedimos por teclado el costo del litro de agua
+14.	Lo guardamos en la variable costoLitro
+15.	Pedimos por teclado los minutos consumidos en el mes
+16.	Lo guardamos en la variable minutosMes
+17.	Pedimos por teclado el costo de minuto
+18.	Lo guardamos en la variable costoMinuto
+19.	Pedimos por teclado la edad
+20.	Lo guardamos en la variable edad
+21.	Asignamos a la variable totalAgua el costoLitro * litrosConsumidos
+22.	Asignamos a la variable totalMinutos el minutosMes * costoMes
+23.	Si edad < 20 entonces
+24.	     descuento1 = totalAgua * 0.20 
+25.	     descuento2 = totalMinutos * 0.20
+26.	FinSi
+27.	Presentamos el valor a cancelar del agua con la variable descuento1
+28.	Presentamos el valor a cancelar de los minutos con la variable descuento2
+29.	Fin 
